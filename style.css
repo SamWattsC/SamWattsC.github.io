@@ -208,6 +208,72 @@ nav ul li a:hover::after{
 .btn:hover{
     background: #8B5CF6;
 }
+/* -----Technical Writing Pages-------*/
+.writing-page{
+    padding: 80px 0;
+    color: #ababab;
+}
+
+/* Remove background image and adjust header for technical writing pages */
+.writing-page-body #header {
+    height: auto;
+    min-height: auto;
+    background-image: none;
+    background: #080808;
+}
+
+.writing-page-body #header .header-text {
+    display: none;
+}
+
+.writing-intro{
+    background: #1a1a1a;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px 0;
+    border: 1px solid #333;
+}
+
+.writing-intro p{
+    color: #ababab;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.document-section{
+    margin: 50px 0;
+}
+
+.document-section h2{
+    color: #8B5CF6;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.pdf-container{
+    background: #1a1a1a;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #333;
+}
+
+.pdf-container iframe{
+    border: none;
+    border-radius: 10px;
+}
+
+.back-link{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.back-link .btn{
+    display: inline-block;
+    margin: 0;
+}
+
 /* -----Technical Writing Section-------*/
 #technical-writing{
     padding: 50px 0;
